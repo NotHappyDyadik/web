@@ -1,0 +1,76 @@
+#main{
+
+	width: 98%;
+	padding: 1%;
+	float: top;
+	margin-top: 20px;
+
+
+}
+
+.article{
+	width: 100%;
+	float: left;
+	margin-right: 0%;
+	margin-bottom: 10px;
+	border:1px solid #e3e3e3;
+	background-color: #fff;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.article>img{
+
+	width: 100%;
+}
+
+.article>span{
+	font-family: 'Suez One', serif;
+	font-size: 1.3em;
+	width: 80%;
+	margin:7px 10%;
+	float:left;
+}
+
+
+.heading{
+	font-weight: lighter;
+	font-size: 1.4em;
+	font-family: 'Suez One', serif;
+	border-bottom: 2px solid #db6e6e;
+	float: left;
+	color:#4f4f4f;
+	padding: 0px 5px;
+
+}
+
+
+.heading:first-letter{
+	color:  #db6e6e;
+
+}
+
+#btn2:hover{
+	border-bottom: 2px solid rgba(217, 91, 72, 1);
+	margin-top: 7px;
+}
+
+#btn2:active{
+	border-bottom: 0;
+	margin-top: 7px;
+}
+
+#btn2 {
+	float:right;
+	margin-right: 50%;
+	margin-top: 5px;
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: rgba(236,101, 80, 1);
+	text-shadow: #454545 0 0 2px;
+	border-bottom: 4px solid rgba(217, 91, 72, 1);
+	font-family: 'Suez One', serif;
+	color: white;
+	
+}
